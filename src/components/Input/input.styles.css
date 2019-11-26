@@ -1,0 +1,14 @@
+.main {
+  /* height: 700px; */
+}
+
+.form {
+  border: 1px solid black;
+  margin-left: 10px;
+  height: 35px;
+  border-radius: 4px;
+}
+
+.cepButton {
+  margin-left: 10px;
+}
