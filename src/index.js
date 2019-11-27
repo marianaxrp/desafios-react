@@ -6,12 +6,16 @@ import "../src/styles.css";
 
 ReactDOM.render(
   <div className="main">
-    <div className="container">
-      <span>CEP:</span>
-      <Input />
-      <span className="cepButton">Não sei meu CEP</span>
+    <div>
+      <h1 className="title">Busca de CEP</h1>
+      <div className="container">
+        <span>CEP:</span>
+        <Input />
+        <span className="cepButton">Não sei meu CEP</span>
+      </div>
+      <Button />
+      <span className="nextStep">Próximo Passo: Forma de pagamento</span>
     </div>
-    <Button />
   </div>,
   document.getElementById("root")
 );

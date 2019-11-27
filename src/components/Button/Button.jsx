@@ -5,7 +5,7 @@ export default class Button extends Component {
   render() {
     return (
       <div>
-        <button>Avançar</button>
+        <button className="submitButton">Avançar</button>
       </div>
     );
   }
