@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import "./input.styles.css";
 
-export default class Input extends Component {
+export default class ViaCep extends Component {
   render() {
     return (
       <div>

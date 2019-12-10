@@ -2,11 +2,12 @@
   border: 1px solid black;
   margin-left: 10px;
   height: 24px;
-  width: 90px;
+  width: 120px;
   border-radius: 4px;
   background-color: #fbeff5;
   color: #848484;
   font-size: 12px;
+  padding: 3px;
 }
 
 .cepButton {
