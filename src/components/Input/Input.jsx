@@ -6,7 +6,12 @@ export default class ViaCep extends Component {
     return (
       <div>
         <div className="main">
-          <input className="form" type="text" placeholder="Digite o CEP" />
+          <input
+            className="form"
+            type="text"
+            maxLength="8"
+            placeholder="00000000"
+          />
         </div>
       </div>
     );
